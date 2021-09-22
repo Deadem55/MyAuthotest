@@ -92,6 +92,10 @@ public class GitAuthorization {
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
 
-        driver.quit();
+//  TODO накодить кейс по успешной авторизации и выходу (до текущей проваленной)
+
+//  TODO как задизэйблить капчу чтоб завершить регистрацию?
+
+//        driver.quit();
     }
 }
